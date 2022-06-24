@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656066358147' stop='1656066371220'>
+    <name>Creating a new customer and checking success/failed creation</name>
+    <title>Creating a new customer and checking success/failed creation</title>
+    <test-cases>
+        <test-case start='1656066358158' status='passed' stop='1656066366759'>
+            <name>Check creation of a new customer</name>
+            <title>Check creation of a new customer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656066366760' status='passed' stop='1656066371219'>
+            <name>Check creation of existing customer</name>
+            <title>Check creation of existing customer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

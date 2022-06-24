@@ -1,0 +1,50 @@
+{
+  "uid" : "91eaa877de626d0c",
+  "name" : "Check creation of a new customer",
+  "fullName" : "Creating a new customer and checking success/failed creation.Check creation of a new customer",
+  "historyId" : "16769b742d41cd851a6b998134fb3fd7",
+  "time" : {
+    "start" : 1656066358158,
+    "stop" : 1656066366759,
+    "duration" : 8601
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Creating a new customer and checking success/failed creation"
+  }, {
+    "name" : "testClass",
+    "value" : "Creating a new customer and checking success/failed creation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check creation of a new customer"
+  }, {
+    "name" : "package",
+    "value" : "Creating a new customer and checking success/failed creation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91eaa877de626d0c.json",
+  "parameterValues" : [ ]
+}

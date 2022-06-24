@@ -1,0 +1,56 @@
+{
+  "uid" : "ba01393d4a241031",
+  "name" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)",
+  "fullName" : "Check navigation function including sidebar and main menu list.Check page load of all sidebar_menu items and its text/url assertation (example #2)",
+  "historyId" : "5fd02e2b6f79c042d7e34d6e8bc70148",
+  "time" : {
+    "start" : 1656066312857,
+    "stop" : 1656066343224,
+    "duration" : 30367
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer\n                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156636:82\n                    at visitFailedByErr (https://www.phptravels.net/__cypress/runner/cypress_runner.js:155940:12)\n                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156635:11\n                    at tryCatcher (https://www.phptravels.net/__cypress/runner/cypress_runner.js:13012:23)\n                    at Promise._settlePromiseFromHandler (https://www.phptravels.net/__cypress/runner/cypress_runner.js:10947:31)\n                    at Promise._settlePromise (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11004:18)\n                    at Promise._settlePromise0 (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11049:10)\n                    at Promise._settlePromises (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11125:18)\n                    at _drainQueueStep (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7719:12)\n                    at _drainQueue (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7712:9)\n                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7728:5)\n                    at Async.drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7598:14)\n                From Your Spec Code:\n                    at LoginPage.navigate (https://www.phptravels.net/__cypress/tests?p=cypress\\e2e\\testscripts\\navigation.feature:116:10)\n                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\\e2e\\testscripts\\navigation.feature:51:9)\n                    at Context.resolveAndRunStepDefinition (https://www.phptravels.net/__cypress/tests?p=cypress\\e2e\\testscripts\\navigation.feature:10625:29)\n                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\\e2e\\testscripts\\navigation.feature:9946:35)\n                \n                From Node.js Internals:\n                  Error: ESOCKETTIMEDOUT\n                      at ClientRequest.<anonymous> (C:\\Users\\nenad.bjelica\\AppData\\Local\\Cypress\\Cache\\10.1.0\\Cypress\\resources\\app\\node_modules\\@cypress\\request\\request.js:808:19)\n                      at Object.onceWrapper (node:events:509:28)\n                      at ClientRequest.emit (node:events:390:28)\n                      at ClientRequest.emit (node:domain:475:12)\n                      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)\n                      at Object.onceWrapper (node:events:509:28)\n                      at TLSSocket.emit (node:events:402:35)\n                      at TLSSocket.emit (node:domain:475:12)\n                      at TLSSocket.Socket._onTimeout (node:net:501:8)\n                      at listOnTimeout (node:internal/timers:557:17)\n                      at processTimers (node:internal/timers:500:7)\n                  ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check navigation function including sidebar and main menu list"
+  }, {
+    "name" : "testClass",
+    "value" : "Check navigation function including sidebar and main menu list"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)"
+  }, {
+    "name" : "package",
+    "value" : "Check navigation function including sidebar and main menu list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba01393d4a241031.json",
+  "parameterValues" : [ ]
+}

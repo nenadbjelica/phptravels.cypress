@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656066186091' stop='1656066277172'>
+    <name>Check login function</name>
+    <title>Check login function</title>
+    <test-cases>
+        <test-case start='1656066186107' status='broken' stop='1656066216441'>
+            <name>Check if customer is logged in successfully (example #1)</name>
+            <title>Check if customer is logged in successfully (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://www.phptravels.net/login/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://www.phptravels.net/login/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156636:82
+                    at visitFailedByErr (https://www.phptravels.net/__cypress/runner/cypress_runner.js:155940:12)
+                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156635:11
+                    at tryCatcher (https://www.phptravels.net/__cypress/runner/cypress_runner.js:13012:23)
+                    at Promise._settlePromiseFromHandler (https://www.phptravels.net/__cypress/runner/cypress_runner.js:10947:31)
+                    at Promise._settlePromise (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11004:18)
+                    at Promise._settlePromise0 (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11049:10)
+                    at Promise._settlePromises (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11125:18)
+                    at _drainQueueStep (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7719:12)
+                    at _drainQueue (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7712:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7728:5)
+                    at Async.drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7598:14)
+                From Your Spec Code:
+                    at LoginPage.navigate (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:105:10)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:46:9)
+                    at Context.resolveAndRunStepDefinition (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:10593:29)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:9914:35)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (C:\Users\nenad.bjelica\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\@cypress\request\request.js:808:19)
+                      at Object.onceWrapper (node:events:509:28)
+                      at ClientRequest.emit (node:events:390:28)
+                      at ClientRequest.emit (node:domain:475:12)
+                      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+                      at Object.onceWrapper (node:events:509:28)
+                      at TLSSocket.emit (node:events:402:35)
+                      at TLSSocket.emit (node:domain:475:12)
+                      at TLSSocket.Socket._onTimeout (node:net:501:8)
+                      at listOnTimeout (node:internal/timers:557:17)
+                      at processTimers (node:internal/timers:500:7)
+                  </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656066216513' status='broken' stop='1656066246783'>
+            <name>Check if agent is logged in successfully (example #2)</name>
+            <title>Check if agent is logged in successfully (example #2)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://www.phptravels.net/login/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://www.phptravels.net/login/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156636:82
+                    at visitFailedByErr (https://www.phptravels.net/__cypress/runner/cypress_runner.js:155940:12)
+                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156635:11
+                    at tryCatcher (https://www.phptravels.net/__cypress/runner/cypress_runner.js:13012:23)
+                    at Promise._settlePromiseFromHandler (https://www.phptravels.net/__cypress/runner/cypress_runner.js:10947:31)
+                    at Promise._settlePromise (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11004:18)
+                    at Promise._settlePromise0 (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11049:10)
+                    at Promise._settlePromises (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11125:18)
+                    at _drainQueueStep (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7719:12)
+                    at _drainQueue (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7712:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7728:5)
+                    at Async.drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7598:14)
+                From Your Spec Code:
+                    at LoginPage.navigate (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:105:10)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:46:9)
+                    at Context.resolveAndRunStepDefinition (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:10593:29)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:9914:35)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (C:\Users\nenad.bjelica\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\@cypress\request\request.js:808:19)
+                      at Object.onceWrapper (node:events:509:28)
+                      at ClientRequest.emit (node:events:390:28)
+                      at ClientRequest.emit (node:domain:475:12)
+                      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+                      at Object.onceWrapper (node:events:509:28)
+                      at TLSSocket.emit (node:events:402:35)
+                      at TLSSocket.emit (node:domain:475:12)
+                      at TLSSocket.Socket._onTimeout (node:net:501:8)
+                      at listOnTimeout (node:internal/timers:557:17)
+                      at processTimers (node:internal/timers:500:7)
+                  </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656066246820' status='broken' stop='1656066277113'>
+            <name>Check if validation message apears for wrong credentials</name>
+            <title>Check if validation message apears for wrong credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://www.phptravels.net/login/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://www.phptravels.net/login/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156636:82
+                    at visitFailedByErr (https://www.phptravels.net/__cypress/runner/cypress_runner.js:155940:12)
+                    at https://www.phptravels.net/__cypress/runner/cypress_runner.js:156635:11
+                    at tryCatcher (https://www.phptravels.net/__cypress/runner/cypress_runner.js:13012:23)
+                    at Promise._settlePromiseFromHandler (https://www.phptravels.net/__cypress/runner/cypress_runner.js:10947:31)
+                    at Promise._settlePromise (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11004:18)
+                    at Promise._settlePromise0 (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11049:10)
+                    at Promise._settlePromises (https://www.phptravels.net/__cypress/runner/cypress_runner.js:11125:18)
+                    at _drainQueueStep (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7719:12)
+                    at _drainQueue (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7712:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7728:5)
+                    at Async.drainQueues (https://www.phptravels.net/__cypress/runner/cypress_runner.js:7598:14)
+                From Your Spec Code:
+                    at LoginPage.navigate (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:105:10)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:46:9)
+                    at Context.resolveAndRunStepDefinition (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:10593:29)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress\e2e\testscripts\login.feature:9914:35)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (C:\Users\nenad.bjelica\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\@cypress\request\request.js:808:19)
+                      at Object.onceWrapper (node:events:509:28)
+                      at ClientRequest.emit (node:events:390:28)
+                      at ClientRequest.emit (node:domain:475:12)
+                      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+                      at Object.onceWrapper (node:events:509:28)
+                      at TLSSocket.emit (node:events:402:35)
+                      at TLSSocket.emit (node:domain:475:12)
+                      at TLSSocket.Socket._onTimeout (node:net:501:8)
+                      at listOnTimeout (node:internal/timers:557:17)
+                      at processTimers (node:internal/timers:500:7)
+                  </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
