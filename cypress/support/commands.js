@@ -1,9 +1,3 @@
-import { sidebarMenuItems } from './pageObjects/NotificationItems';
-
-Cypress.Commands.add("logoutUser", () => {
-    cy.get(sidebarMenuItems.logout).click();
-});
-
 Cypress.Commands.add("urlIncludeOrContain", (url) => {
     cy.url().should('contain', url)
 });

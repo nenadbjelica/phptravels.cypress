@@ -1,6 +1,6 @@
 Feature: Creating a new customer and checking success/failed creation
 
-    Scenario: Check creation of a new customer
+    Scenario: Check creation of new customer
         Given url is navigated
         When user click on Signup button
         And enters all valid credentials and signup
