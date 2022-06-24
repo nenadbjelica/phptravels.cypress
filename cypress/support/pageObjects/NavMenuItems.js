@@ -6,7 +6,7 @@ export class NavMenuItems {
         flights: '.main-menu-content [href*="flights"]',
         tours: '.main-menu-content [href*="tours"]',
         visa: '.main-menu-content [href*="visa"]',
-        blog:'.main-menu-content [href*="blog"]',
+        blog: '.main-menu-content [href*="blog"]',
         offers: '.main-menu-content [href*="offers"]',
         company: '.main-menu-content [href="company"]'
     }

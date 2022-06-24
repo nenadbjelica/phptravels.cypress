@@ -10,6 +10,7 @@ const customer = Cypress.env('customer');
 const numberOfMainMenuItems = 8
 const numberOfSidebarMenuItems = 5
 
+
 Given('url is navigated', () => {
     login.navigate('/');
 })

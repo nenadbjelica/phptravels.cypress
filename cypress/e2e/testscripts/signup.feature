@@ -1,4 +1,4 @@
-Feature: Creating a new customer and checking success/failed creation
+Feature: Creation of new/existing customer and checking success/failed creation
 
     Scenario: Check creation of new customer
         Given url is navigated
