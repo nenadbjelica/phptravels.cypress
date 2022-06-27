@@ -24,8 +24,4 @@ export class NavMenuItems {
         sidebarList: '.sidebar-menu .waves-effect'
     }
 
-    logoutUser() {
-        cy.get(this.sidebarMenuItems.logout).click();
-    }
-
 }

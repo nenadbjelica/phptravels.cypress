@@ -4,9 +4,7 @@ import { loginData } from "../../../fixtures/constLogin";
 import { LoginPage } from "../../../support/pageObjects/LoginPage";
 import { NavMenuItems } from "../../../support/pageObjects/NavMenuItems";
 
-
 const login = new LoginPage()
-const navMenu = new NavMenuItems()
 
 Given('url is navigated', () => {
   login.navigate('/')
@@ -18,7 +16,7 @@ Given('{string} with {string} and {string} is logged in', (role, username, passw
 
 Then('assert that {string} is shown', (text) => {
   cy.elementShouldContainText(login.welcomeinfo, text)
-  navMenu.logoutUser()
+  login.logoutUser()
 })
 
 Given('user try to login with wrong credentials', () => {
