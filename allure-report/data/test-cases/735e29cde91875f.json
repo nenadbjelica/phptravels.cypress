@@ -1,5 +1,5 @@
 {
-  "uid" : "5f5bf830d2d77634",
+  "uid" : "735e29cde91875f",
   "name" : "Check if validation message apears for wrong credentials",
   "fullName" : "Check login function.Check if validation message apears for wrong credentials",
   "historyId" : "3ff283a56e195b416a2b1c07a554b449",
@@ -51,6 +51,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "5f5bf830d2d77634.json",
+  "source" : "735e29cde91875f.json",
   "parameterValues" : [ ]
 }

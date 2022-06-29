@@ -1,5 +1,5 @@
 {
-  "uid" : "d9edbdd68dd7c284",
+  "uid" : "cb9c24a47f3165c1",
   "name" : "Check creation of existing customer",
   "fullName" : "Creating a new customer and checking success/failed creation.Check creation of existing customer",
   "historyId" : "d6809fa89ec1147a2f4e187779628d1c",
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d9edbdd68dd7c284.json",
+  "source" : "cb9c24a47f3165c1.json",
   "parameterValues" : [ ]
 }

@@ -1,24 +1,4 @@
 {
-  "80785c3e3c40f826c701727c8d6f9fd7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b5b6f983db9c744d",
-      "status" : "broken",
-      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
-      "time" : {
-        "start" : 1656066282476,
-        "stop" : 1656066312791,
-        "duration" : 30315
-      }
-    } ]
-  },
   "3ff283a56e195b416a2b1c07a554b449" : {
     "statistic" : {
       "failed" : 0,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f5bf830d2d77634",
+      "uid" : "735e29cde91875f",
       "status" : "broken",
       "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
       "time" : {
         "start" : 1656066246820,
         "stop" : 1656066277113,
         "duration" : 30293
+      }
+    } ]
+  },
+  "80785c3e3c40f826c701727c8d6f9fd7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c82cf42e3227e4fb",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1656066282476,
+        "stop" : 1656066312791,
+        "duration" : 30315
       }
     } ]
   },
@@ -49,7 +49,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c59c1506bbbbb09f",
+      "uid" : "1420d601a94f5a26",
       "status" : "broken",
       "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
       "time" : {
@@ -69,7 +69,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba01393d4a241031",
+      "uid" : "67fb7c811ecf471b",
       "status" : "broken",
       "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
       "time" : {
@@ -89,7 +89,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9edbdd68dd7c284",
+      "uid" : "cb9c24a47f3165c1",
       "status" : "passed",
       "time" : {
         "start" : 1656066366760,
@@ -108,7 +108,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91eaa877de626d0c",
+      "uid" : "43d8e28ed0ad0997",
       "status" : "passed",
       "time" : {
         "start" : 1656066358158,
@@ -127,7 +127,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91ef324d59b0a371",
+      "uid" : "29eaecf244bca06c",
       "status" : "broken",
       "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
       "time" : {

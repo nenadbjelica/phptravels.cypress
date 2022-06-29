@@ -1,7 +1,7 @@
 export class NavMenuItems {
 
     mainMenuItems = {
-        home: 'nav > :nth-child(1) > :nth-child(1) > .waves-effect]',
+        home: 'nav > :nth-child(1) > :nth-child(1) > .waves-effect',
         hotels: '.main-menu-content [href*="hotels"]',
         flights: '.main-menu-content [href*="flights"]',
         tours: '.main-menu-content [href*="tours"]',

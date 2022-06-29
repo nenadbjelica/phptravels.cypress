@@ -1,12 +1,12 @@
 {
-  "uid" : "ba01393d4a241031",
-  "name" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)",
-  "fullName" : "Check navigation function including sidebar and main menu list.Check page load of all sidebar_menu items and its text/url assertation (example #2)",
-  "historyId" : "5fd02e2b6f79c042d7e34d6e8bc70148",
+  "uid" : "c82cf42e3227e4fb",
+  "name" : "Check page load of all main_menu items and its text/url assertation (example #1)",
+  "fullName" : "Check navigation function including sidebar and main menu list.Check page load of all main_menu items and its text/url assertation (example #1)",
+  "historyId" : "80785c3e3c40f826c701727c8d6f9fd7",
   "time" : {
-    "start" : 1656066312857,
-    "stop" : 1656066343224,
-    "duration" : 30367
+    "start" : 1656066282476,
+    "stop" : 1656066312791,
+    "duration" : 30315
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -29,7 +29,7 @@
     "value" : "Check navigation function including sidebar and main menu list"
   }, {
     "name" : "testMethod",
-    "value" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)"
+    "value" : "Check page load of all main_menu items and its text/url assertation (example #1)"
   }, {
     "name" : "package",
     "value" : "Check navigation function including sidebar and main menu list"
@@ -51,6 +51,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "ba01393d4a241031.json",
+  "source" : "c82cf42e3227e4fb.json",
   "parameterValues" : [ ]
 }

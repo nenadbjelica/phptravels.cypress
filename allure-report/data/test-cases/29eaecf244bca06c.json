@@ -1,5 +1,5 @@
 {
-  "uid" : "91ef324d59b0a371",
+  "uid" : "29eaecf244bca06c",
   "name" : "Check if agent is logged in successfully (example #2)",
   "fullName" : "Check login function.Check if agent is logged in successfully (example #2)",
   "historyId" : "248ff282019532cfab9c3d0ddd9c27d0",
@@ -51,6 +51,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "91ef324d59b0a371.json",
+  "source" : "29eaecf244bca06c.json",
   "parameterValues" : [ ]
 }

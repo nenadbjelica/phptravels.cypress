@@ -1,45 +1,5 @@
 [ {
-  "uid" : "91ef324d59b0a371",
-  "name" : "Check if agent is logged in successfully (example #2)",
-  "time" : {
-    "start" : 1656066216513,
-    "stop" : 1656066246783,
-    "duration" : 30270
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d9edbdd68dd7c284",
-  "name" : "Check creation of existing customer",
-  "time" : {
-    "start" : 1656066366760,
-    "stop" : 1656066371219,
-    "duration" : 4459
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91eaa877de626d0c",
-  "name" : "Check creation of a new customer",
-  "time" : {
-    "start" : 1656066358158,
-    "stop" : 1656066366759,
-    "duration" : 8601
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba01393d4a241031",
-  "name" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)",
-  "time" : {
-    "start" : 1656066312857,
-    "stop" : 1656066343224,
-    "duration" : 30367
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5f5bf830d2d77634",
+  "uid" : "735e29cde91875f",
   "name" : "Check if validation message apears for wrong credentials",
   "time" : {
     "start" : 1656066246820,
@@ -49,7 +9,27 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "c59c1506bbbbb09f",
+  "uid" : "cb9c24a47f3165c1",
+  "name" : "Check creation of existing customer",
+  "time" : {
+    "start" : 1656066366760,
+    "stop" : 1656066371219,
+    "duration" : 4459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c82cf42e3227e4fb",
+  "name" : "Check page load of all main_menu items and its text/url assertation (example #1)",
+  "time" : {
+    "start" : 1656066282476,
+    "stop" : 1656066312791,
+    "duration" : 30315
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1420d601a94f5a26",
   "name" : "Check if customer is logged in successfully (example #1)",
   "time" : {
     "start" : 1656066186107,
@@ -59,12 +39,32 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "b5b6f983db9c744d",
-  "name" : "Check page load of all main_menu items and its text/url assertation (example #1)",
+  "uid" : "43d8e28ed0ad0997",
+  "name" : "Check creation of a new customer",
   "time" : {
-    "start" : 1656066282476,
-    "stop" : 1656066312791,
-    "duration" : 30315
+    "start" : 1656066358158,
+    "stop" : 1656066366759,
+    "duration" : 8601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67fb7c811ecf471b",
+  "name" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)",
+  "time" : {
+    "start" : 1656066312857,
+    "stop" : 1656066343224,
+    "duration" : 30367
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "29eaecf244bca06c",
+  "name" : "Check if agent is logged in successfully (example #2)",
+  "time" : {
+    "start" : 1656066216513,
+    "stop" : 1656066246783,
+    "duration" : 30270
   },
   "status" : "broken",
   "severity" : "normal"

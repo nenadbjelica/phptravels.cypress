@@ -7,7 +7,7 @@
       "name" : "`cy.visit()` failed trying to load:\n                \n                https://www.phptravels.net/login/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
       "children" : [ {
         "name" : "Check if customer is logged in successfully (example #1)",
-        "uid" : "c59c1506bbbbb09f",
+        "uid" : "1420d601a94f5a26",
         "parentUid" : "c136f85c9354048c5f781a4ada933695",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Check if agent is logged in successfully (example #2)",
-        "uid" : "91ef324d59b0a371",
+        "uid" : "29eaecf244bca06c",
         "parentUid" : "c136f85c9354048c5f781a4ada933695",
         "status" : "broken",
         "time" : {
@@ -41,7 +41,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Check if validation message apears for wrong credentials",
-        "uid" : "5f5bf830d2d77634",
+        "uid" : "735e29cde91875f",
         "parentUid" : "c136f85c9354048c5f781a4ada933695",
         "status" : "broken",
         "time" : {
@@ -58,7 +58,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Check page load of all main_menu items and its text/url assertation (example #1)",
-        "uid" : "b5b6f983db9c744d",
+        "uid" : "c82cf42e3227e4fb",
         "parentUid" : "c136f85c9354048c5f781a4ada933695",
         "status" : "broken",
         "time" : {
@@ -75,7 +75,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)",
-        "uid" : "ba01393d4a241031",
+        "uid" : "67fb7c811ecf471b",
         "parentUid" : "c136f85c9354048c5f781a4ada933695",
         "status" : "broken",
         "time" : {

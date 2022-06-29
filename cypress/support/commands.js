@@ -65,3 +65,22 @@ Cypress.Commands.add("assertTextArrayFromElementList", (elementList, textList) =
         cy.elementShouldContainText(item, textList[index])
     })
 })
+
+Cypress.Commands.add("setAttribute", (ele, attr, value) => {
+    cy.get(ele)
+    .invoke('attr', attr, value)
+    .should('have.attr', attr, value)
+    
+    // or with jQuery
+    // cy.get('#checkin').then(function ($input) {
+    // $input[0].setAttribute('value', '15-10-2020')
+    // })
+    // .should('have.attr', 'value', '15-10-2020')
+})
+
+Cypress.Commands.add("attributeEquals", (ele, attr, value)=>{
+    cy.get(ele)
+    .invoke('attr', attr)
+    .should('eq', value)
+})
+

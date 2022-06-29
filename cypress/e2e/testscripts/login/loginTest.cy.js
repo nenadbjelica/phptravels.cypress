@@ -2,7 +2,6 @@
 import { Given, Then } from "cypress-cucumber-preprocessor/steps";
 import { loginData } from "../../../fixtures/constLogin";
 import { LoginPage } from "../../../support/pageObjects/LoginPage";
-import { NavMenuItems } from "../../../support/pageObjects/NavMenuItems";
 
 const login = new LoginPage()
 

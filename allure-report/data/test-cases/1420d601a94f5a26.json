@@ -1,5 +1,5 @@
 {
-  "uid" : "c59c1506bbbbb09f",
+  "uid" : "1420d601a94f5a26",
   "name" : "Check if customer is logged in successfully (example #1)",
   "fullName" : "Check login function.Check if customer is logged in successfully (example #1)",
   "historyId" : "bc196dbe0e4fd36464f5682adcabad16",
@@ -51,6 +51,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "c59c1506bbbbb09f.json",
+  "source" : "1420d601a94f5a26.json",
   "parameterValues" : [ ]
 }

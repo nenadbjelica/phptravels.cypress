@@ -5,7 +5,7 @@
     "name" : "Check login function",
     "children" : [ {
       "name" : "Check if customer is logged in successfully (example #1)",
-      "uid" : "c59c1506bbbbb09f",
+      "uid" : "1420d601a94f5a26",
       "parentUid" : "42759d20e808ae2c9df042845337ce3b",
       "status" : "broken",
       "time" : {
@@ -22,7 +22,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Check if agent is logged in successfully (example #2)",
-      "uid" : "91ef324d59b0a371",
+      "uid" : "29eaecf244bca06c",
       "parentUid" : "42759d20e808ae2c9df042845337ce3b",
       "status" : "broken",
       "time" : {
@@ -39,7 +39,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Check if validation message apears for wrong credentials",
-      "uid" : "5f5bf830d2d77634",
+      "uid" : "735e29cde91875f",
       "parentUid" : "42759d20e808ae2c9df042845337ce3b",
       "status" : "broken",
       "time" : {
@@ -60,7 +60,7 @@
     "name" : "Check navigation function including sidebar and main menu list",
     "children" : [ {
       "name" : "Check page load of all main_menu items and its text/url assertation (example #1)",
-      "uid" : "b5b6f983db9c744d",
+      "uid" : "c82cf42e3227e4fb",
       "parentUid" : "2dc5e5f46d4160b579ce4170570a8ad9",
       "status" : "broken",
       "time" : {
@@ -77,7 +77,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Check page load of all sidebar_menu items and its text/url assertation (example #2)",
-      "uid" : "ba01393d4a241031",
+      "uid" : "67fb7c811ecf471b",
       "parentUid" : "2dc5e5f46d4160b579ce4170570a8ad9",
       "status" : "broken",
       "time" : {
@@ -98,7 +98,7 @@
     "name" : "Creating a new customer and checking success/failed creation",
     "children" : [ {
       "name" : "Check creation of a new customer",
-      "uid" : "91eaa877de626d0c",
+      "uid" : "43d8e28ed0ad0997",
       "parentUid" : "ea19f88400f10b4a43d368c05856de68",
       "status" : "passed",
       "time" : {
@@ -115,7 +115,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Check creation of existing customer",
-      "uid" : "d9edbdd68dd7c284",
+      "uid" : "cb9c24a47f3165c1",
       "parentUid" : "ea19f88400f10b4a43d368c05856de68",
       "status" : "passed",
       "time" : {

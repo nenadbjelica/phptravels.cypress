@@ -11,11 +11,11 @@ export class SignupPage {
     alertDanger = '.alert-danger'
 
 
-    enterfirstName(strFirstName) {
+    enterFirstName(strFirstName) {
         cy.get(this.firstName).type(strFirstName)
     }
 
-    enterlastName(strLastName) {
+    enterLastName(strLastName) {
         cy.get(this.lastName).type(strLastName)
     }
 
@@ -36,8 +36,8 @@ export class SignupPage {
     }
 
     signupUser(strFirstName, strLastName, strPhone, strEmail, strPassword) {
-        this.enterfirstName(strFirstName)
-        this.enterlastName(strLastName)
+        this.enterFirstName(strFirstName)
+        this.enterLastName(strLastName)
         this.enterPhone(strPhone)
         this.enterEmail(strEmail)
         this.enterPassword(strPassword)
